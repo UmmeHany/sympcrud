@@ -1,0 +1,7 @@
+
+shoeAllPostAction:
+    path: /post
+    controller: AppBundle\Controller\PostController::shoeAllPostAction 
+shoeSinglePostAction:
+    path: /view/{id}
+    controller: AppBundle\Controller\PostController::shoeSinglePostAction 

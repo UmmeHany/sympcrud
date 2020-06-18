@@ -1,0 +1,15 @@
+
+{% extends 'pages/baseindex.html.twig'%}
+{% block h1 %}
+<h1>view single</h1>
+{% endblock %}
+{% block body %}
+
+<div class='container'>
+<span>{{post.title}}</span>
+<a href="{{absolute_url( asset('') )}}post" class="btn btn-primary btn-xs">Back</a>
+
+
+</div>
+
+{% endblock %}
